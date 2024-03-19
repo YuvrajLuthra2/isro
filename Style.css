@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+	
+}
+body{
+	background-image: url(img/Chandrayaan-3.jpg);
+	
+}
+
+.chandamama{
+	background-image: url(img/space2.jpg);
+}
+
+.l1{
+	background-image: url(img/l1.webp);
+}
+
+.gagan{
+	background-image: url(img/gaganyaan-launch-2025.jpg);
+}
+
+.mars{
+	background-image: url(img/Mangalyaan_vipulmb_5.jpg);
+}
+
+.first{
+	background-image: url(img/Aryabhata.webp);
+}
+
+img h1{
+	white-space: nowrap;
+}
+
+.tabs  ul li a:hover {
+	background-color: #620031;
+	color: #ffffff;
+    margin: 60;
+    text-transform: capitalize;
+    text-decoration-line: underline;
+}
+
+body {
+	font: bold 11px/1.5em Arial;
+	}
+
+h1 {
+	font-family: Arial;
+	font-size:16px;
+	font-weight:bold;
+	margin:0;
+	padding:0;
+}
+.h1{
+    font-size: 500%;
+    color: aliceblue;
+    text-shadow: 2px 2px 5px #000;
+    background-color: #00000097;
+    padding: 0.25rem ;
+    border-radius: 10px;
+}
+
+div.text h1{
+    border-bottom: 30px solid #030303;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; 
+    gap: 30px; 
+    white-space: nowrap;  
+}
+hr {
+	border:none;
+	border-top:1px solid #CCCCCC;
+	height:1px;
+	margin-bottom:25px;
+	}
+	
+.tabs {
+	float:left;
+	width:100%;
+	font-size:93%;
+	line-height:normal;
+	border-bottom:1px solid #6B78A9;
+	}
+	
+.tabs ul {
+	margin:0;
+	padding:5px 5px 0 100px;
+	list-style:none;
+	}
+
+.tabs li {
+	display:inline;
+	margin:0;
+	padding:0;
+	}
+
+.tabs a {
+	float:left;
+	background:url("tableft.gif") no-repeat left top;
+	margin:0;
+	padding:0 0 0 7px;
+	text-decoration:none;
+	}
+
+.tabs a span {
+	float:left;
+	display:block;
+	padding:5px 15px 4px 6px;
+	}
+	
+.tabs a:hover {
+	background-position:0% -42px;
+	}
+
+.tabs a:hover span {
+	background-position:100% -42px;
+}
+
+.moon{
+	color: #ffffff;
+}
+
+p {
+	color: #ffffff;
+	background-color: #00000078;
+	text-decoration:silver;
+	text-shadow: 10px #000;
+	font-size: 0.9rem;
+}
+
+h1{
+	color: #ffffff;
+	background-color: #00000078;
+	text-decoration:silver;
+	text-shadow: 10px #000;
+	font-size: large;
+	
+}
+
+ul{
+    color: #ffffff;
+	background-color: #00000078;
+	text-decoration:silver;
+	text-shadow: 10px #000;
+	font-size: 0.9rem;
+    padding-left: 1rem;
+}
+
+table {
+	color: #ffffff;
+	background-color: #00000078;
+	text-decoration:silver;
+	text-shadow: 10px #000;
+	font-size: 0.9rem;
+}
+ol{
+    color: #ffffff;
+	background-color: #00000078;
+	text-decoration:silver;
+	text-shadow: 10px #000;
+	font-size: 0.9rem;
+    padding-left: 1rem;
+}
+
+table {
+	border-collapse: collapse;
+}
+td, th {
+	border: 1px solid rgb(253, 251, 251)
+}
+
+
+.margin{
+	margin: 12px;
+}
+
+.end{
+    text-align: center;
+    color: crimson;
+    background-color: #00000078;
+    text-decoration: underline;
+}
+
+.scroll-left {
+    height: 15px;	
+    position: relative;
+    background: black;
+    border: 1px solid white;
+   }
+   .scroll-left p {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    line-height: 15px;
+    text-align: center;
+    /* Starting position */
+    transform:translateX(100%);
+    /* Apply animation to this element */
+    animation: scroll-left 15s linear infinite;
+   }
+   /* Move it (define the animation) */
+    @keyframes scroll-left {
+    0%   {
+    transform: translateX(100%); 		
+    }
+    100% {
+    transform: translateX(-100%); 
+    }
+   }
